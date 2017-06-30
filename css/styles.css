@@ -132,34 +132,36 @@ h1  {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/* STYLES GO HERE */
+and (min-width: 320px)
+and (max-width: 480px) {
+body {
+  background-color: red;
+}
 }
 
 /* in between resized windows ----------- */
 @media only screen
-and (min-device-width : 480px)
-and (max-device-width : 768px) {
+and (min-width: 480px)
+and (max-width: 768px) {
 /* STYLES GO HERE */
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
+and (min-width: 768px)
+and (max-width: 1024px) {
 /* STYLES GO HERE */
 }
 
 /* Desktops and laptops ----------- */
 @media only screen
-and (min-width : 1224px) {
+and (min-width: 1224px) {
 /* STYLES GO HERE */1
 }
 
 /* Large screens ----------- */
 @media only screen
-and (min-width : 1824px) {
+and (min-width: 1824px) {
 /* STYLES GO HERE */
 
 
