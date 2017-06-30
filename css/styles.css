@@ -42,6 +42,7 @@ input {
 
 .wordBlanks {
   text-align: center;
+  padding: 20px;
 }
 
 h1  {
@@ -69,7 +70,7 @@ h1  {
   width: 100%;
   height: 100%;
   /*-webkit-animation:vectro_effect 0.067s infinite;*/
-  background: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, rgba(255,255,255,0) 1px, rgba(255,255,255,0) 2px);
+  /*background: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, rgba(255,255,255,0) 1px, rgba(255,255,255,0) 2px);*/
 }
 
 
@@ -126,4 +127,40 @@ h1  {
   padding-right: 30px;
   margin-left: -30px;
 }
+
+/*Media Queries:*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+}
+
+/* in between resized windows ----------- */
+@media only screen
+and (min-device-width : 480px)
+and (max-device-width : 768px) {
+/* STYLES GO HERE */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */1
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+
+
 /*80's Typography by David Parker*/
