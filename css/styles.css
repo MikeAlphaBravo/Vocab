@@ -132,37 +132,66 @@ h1  {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
-and (min-width: 320px)
+and (min-width: 150px)
 and (max-width: 480px) {
-body {
-  background-color: red;
-}
+  body {
+    margin-top: 0px;
+    background-color: green;
+  }
+  h1  {
+    font-size: 12px;
+  }
+  #gameOver {
+    display: none;
+    font-size: 12px;
+  }
+  label {
+      font-size: 10px;
+      color: white;
+  }
+  #wordBlanks, #wrongGuess {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  /*80's Typography by David Parker*/
+
+  .vectro {
+    font-size: 60px;
+    margin: 60px 0 10px 0;
+  }
 }
 
 /* in between resized windows ----------- */
 @media only screen
 and (min-width: 480px)
 and (max-width: 768px) {
-/* STYLES GO HERE */
+  body {
+    margin-top: 0px;
+    background-color: green;
+  }
+  h1  {
+    font-size: 15px;
+  }
+  #gameOver {
+    display: none;
+    font-size: 20px;
+  }
+  label {
+      font-size: 10px;
+      color: white;
+  }
+  #wordBlanks, #wrongGuess {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  /*80's Typography by David Parker*/
+
+  .vectro {
+    font-size: 110px;
+    margin: 100px 0 20px 0;
+  }
 }
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-width: 768px)
-and (max-width: 1024px) {
-/* STYLES GO HERE */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen
-and (min-width: 1224px) {
-/* STYLES GO HERE */1
-}
-
-/* Large screens ----------- */
-@media only screen
-and (min-width: 1824px) {
-/* STYLES GO HERE */
-
 
 /*80's Typography by David Parker*/
