@@ -1,4 +1,4 @@
-# _Hangperson_
+# _Vocabulary Guessing Game_
 
 #### _A politically more correct version of the classic Hangman, word guessing game, 6/28/2017_
 
