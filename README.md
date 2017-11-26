@@ -1,5 +1,7 @@
 # _Vocabulary Guessing Game_
 
+![alt text](/img/title.png)
+
 #### _A politically more correct version of the classic Hangman, word guessing game, 6/28/2017_
 
 #### By _**Nathan E. M. Mayer & Michael Brooks**_
@@ -35,8 +37,6 @@ _* assume a targetWord of "donkey"_
 * _Link to program here: https://mikealphabravo.github.io/Vocab/
 
 ## User experience screenshots:
-
-![alt text](/img/title.png)
 
 ![alt text](/img/base.png)
 
